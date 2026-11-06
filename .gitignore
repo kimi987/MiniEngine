@@ -1,0 +1,35 @@
+# CMake build directories and generated files
+/build/
+/build-*/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Compiled outputs
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+*.exe
+*.pdb
+*.ilk
+
+# Local IDE settings and caches
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Local credentials and OS metadata
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
